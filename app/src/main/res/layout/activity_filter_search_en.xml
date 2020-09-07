@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_horizontal"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/search_radius"
+            android:nextFocusDown="@+id/gps_intreval"
+            android:imeOptions="actionNext"/>
+    <TextView
+            android:text="@string/search_radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_toRightOf="@+id/search_radius"
+            android:layout_toEndOf="@+id/search_radius"
+            android:layout_alignBaseline="@+id/search_radius"
+            android:id="@+id/textView3"/>
+    <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/search_radius"
+            android:gravity="center_horizontal"
+            android:inputType="number"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:id="@+id/gps_interval"/>
+    <TextView
+            android:text="@string/gps_intreval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_toRightOf="@+id/gps_interval"
+            android:layout_toEndOf="@+id/gps_interval"
+            android:layout_alignBaseline="@+id/gps_interval"
+            android:id="@+id/textView4"/>
+    <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/gps_interval"
+
+            android:gravity="center_horizontal"
+            android:inputType="number"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:id="@+id/bellcircle"/>
+
+    <TextView
+            android:text="@string/bellcircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_toRightOf="@+id/bellcircle"
+            android:layout_toEndOf="@+id/bellcircle"
+            android:layout_alignBaseline="@+id/bellcircle"
+            android:id="@+id/textView5"/>
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/gps_interval">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+    <CheckBox
+            android:text="@string/search_bank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_bank"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_entertainment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_entertainment"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_establishments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_establishments"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_food"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_hotels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_hotels"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_medicine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_medicine"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_service"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_shops"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_shops"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_sport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_sport"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_transport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_transport"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_for_pets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_for_pets"
+            android:layout_marginTop="10dp"/>
+
+    <CheckBox
+            android:text="@string/search_now_open"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_search_now_open"
+            android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

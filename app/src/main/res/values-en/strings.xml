@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Passenger</string>
+
+    <!--Main activity-->
+    <string name="main_points">Points</string>
+    <string name="main_go">Map</string>
+    <string name="main_menu">Menu</string>
+    <!--Main activity-->
+
+    <!--Main menu-->
+    <string name="action_add">Add point</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_delete">Delete point</string>
+    <string name="action_set_point_search">New center of search.</string>
+    <!--Main menu-->
+
+    <!--Buttons-->
+    <string name="b_save">Save</string>
+    <string name="b_cancel">Cansel</string>
+    <string name="b_delete">Delete</string>
+    <string name="b_add">Add</string>
+    <string name="b_test">Test</string>
+    <string name="b_stop">Stop</string>
+    <string name="b_coordinates">Auto Coordinates</string>
+    <string name="b_map">From map</string>
+    <string name="b_OK">OK</string>
+
+    <!--Buttons-->
+
+
+
+     <string name="b_start">Start</string>
+    <string name="edit_point">Edit point</string>
+    <string name="t_lat">Lat.</string>
+    <string name="t_long">Long.</string>
+    <string name="t_latitude">Latitude</string>
+    <string name="t_longitude">Longitude</string>
+    <string name="t_control">Switch on</string>
+    <string name="t_pointname">Name point</string>
+    <string name="t_inputname">Input name</string>
+    <string name="t_routename_edit">(edit -  long-press)</string>
+    <string name="t_signalname">Signal at a distance (M.):</string>
+    <string name="t_signal">Signal</string>
+    <string name="t_signalfile">Signal file:</string>
+    <string name="t_empty">No points</string>
+    <string name="error_name">Name can`t be empty</string>
+    <string name="error_gps_net">Need permitions ACCESS_COARSE_LOCATION</string>
+    <string name="error_gps_coordinats">Can not get coordinates. Try again.</string>
+    <string name="error_gps_notenabled">Please eneble GPS.</string>
+    <string name="error_coordinats">Latitude between -90 and 90, Longitude between -180 and 180.</string>
+    <string name="attention">Attention!</string>
+    <string name="t_distamce">Distance:</string>
+    <string name="t_wait">Please wait...</string>
+    <string name="t_rating">Rating-</string>
+    <string name="search">Search...</string>
+
+    <!--Search-->
+    <string name="search_entertainment">Entertainment</string>
+    <string name="search_establishments">Establishments</string>
+    <string name="search_bank">Bank</string>
+    <string name="search_food">Food</string>
+    <string name="search_medicine">Medicine</string>
+    <string name="search_service">Service</string>
+    <string name="search_shops">Shops</string>
+    <string name="search_sport">Sport, beauty</string>
+    <string name="search_transport">Transport</string>
+    <string name="search_for_pets">For pets</string>
+    <string name="search_hotels">Hotels</string>
+    <string name="search_now_open">Open now</string>
+    <string name="search_radius">Search radius(max 50000 m.)</string>
+    <string name="search_open">Open</string>
+    <string name="search_close">Closed</string>
+    <string name="gps_intreval">GPS Update interval (с.)</string>
+    <string name="bellcircle">Repeat signal (amount)</string>
+    <string name="vidrosignal">Vibration before point</string>
+    <string name="search_filter">Search filter</string>
+    <!--Search-->
+
+    <string name="t_search_perameters">Parameters</string>
+
+    <string name="seek_t_nextpoint">Next point:</string>
+    <string name="seek_nextpoint">Find next point...</string>
+    <string name="record_namefile">File name</string>
+    <string name="point_getcoordinates">Getting location...</string>
+    <string name="point_t_getfile">Select a file</string>
+    <string name="delete_b_all">Check all</string>
+    <string name="delete_b_all_no">Cancel all</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="toast_prefer">Setting location for open map</string>
+    <string name="toast_prefer_done">Setting location done</string>
+    <string name="t_map_start">Start</string>
+    <string name="t_map_mylocation">My location</string>
+    <string name="t_nodata">No data</string>
+    <string name="t_mappoint">Name point</string>
+    <string name="error_internet">Need an internet connection.</string>
+    <string name="error_no_available_providers">Can`t get location! No available GPS providers!</string>
+    <string name="error_latlong">Latitude and longitude can not be 0!</string>
+    <string name="error_selectpoint">Select a point for monitoring!</string>
+    <string name="error_notsearch">No matches were found for your query.</string>
+    <string name="error_nodate">Sorry, try again later.</string>
+    <string name="error_maxradius">Maximum search radius - </string>
+    <string name="error_RECORD">Need permition to record audio and write to SD-card.</string>
+    <string name="error_check">The point has no latitude or longitude.</string>
+    <string name="error_dictofon">Can`t start the dictation. Perhaps it is busy with another program.</string>
+    <string name="error_radius">Please, set the radius for search.</string>
+    <string name="error_getlocatrion">Need your coordinates. Click the locate button.</string>
+    <string name="photo">Photo</string>
+
+    <string name="seek_waiting">Searching nearest point...</string>
+    <string name="start_service">Service started.</string>
+    <string name="bind_service">Service Mageon connected.</string>
+    <string name="stop_service">Service stoped.</string>
+    <string name="destroy_service">Service Mageon disconnected.</string>
+    <string name="google_webservice_key">AIzaSyBlhjc3VBtTBqEwSM0UDg9X0UKBxFiZbO4</string>
+    </resources>

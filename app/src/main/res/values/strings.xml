@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Пассажир</string>
+
+    <!--Main activity-->
+    <string name="main_points">Пункты</string>
+    <string name="main_go">Карта</string>
+    <string name="main_menu">Меню</string>
+    <!--Main activity-->
+
+    <!--Main menu-->
+    <string name="action_add">Добавить точку</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_delete">Удалить точку</string>
+    <string name="action_set_point_search">Новый центр для поиска</string>
+    <!--Main menu-->
+
+    <!--Buttons-->
+    <string name="b_add">Добавить</string>
+    <string name="b_delete">Удалить</string>
+    <string name="b_save">Сохранить</string>
+    <string name="b_cancel">Отмена</string>
+    <string name="b_test">Тест</string>
+    <string name="b_stop">Стоп</string>
+    <string name="b_coordinates">Авто координаты</string>
+    <string name="b_map">Указать на карте</string>
+    <string name="b_OK">ДА</string>
+    <string name="delete_b_all">Выбрать все</string>
+    <string name="delete_b_all_no">Отменить все</string>
+    <!--Buttons-->
+
+    <!--Search-->
+    <string name="search_bank">Банк</string>
+    <string name="search_entertainment">Развлечения</string>
+    <string name="search_shops">Магазины</string>
+    <string name="search_medicine">Медицина</string>
+    <string name="search_food">Продукты, питание</string>
+    <string name="search_service">Услуги</string>
+    <string name="search_sport">Спорт, красота</string>
+    <string name="search_transport">Транспорт</string>
+    <string name="search_establishments">Учреждения</string>
+    <string name="search_for_pets">Для домашних питомцев</string>
+    <string name="search_hotels">Отели, гостиницы</string>
+    <string name="search_now_open">Сейчас открыто</string>
+    <string name="search_radius">Радиус поиска(макс 50000 м.)</string>
+    <string name="search_open">Открыто</string>
+    <string name="search_close">Закрыто</string>
+    <string name="gps_intreval">Интервал обновления GPS (с.)</string>
+    <string name="bellcircle">Повторять сигнал (раз.)</string>
+    <string name="vidrosignal">Вибросигнал до остановки</string>
+    <string name="search_filter">Фильтры для поиска</string>
+    <!--Search-->
+
+    <!-- Text -->
+    <string name="t_lat">Шир.</string>
+    <string name="t_long">Дол.</string>
+    <string name="t_routename_edit">(редактировать - долгое нажатие)</string>
+    <string name="t_signalname">Сигнал выдавать за (М.):</string>
+    <string name="t_signal">Сигнал</string>
+    <string name="t_control">Контроль</string>
+    <string name="t_signalfile">Файл сигнала:</string>
+    <string name="t_empty">Нет точек маршрута</string>
+    <string name="t_map_mylocation">Я здесь</string>
+    <string name="t_latitude">Широта</string>
+    <string name="t_longitude">Долгота</string>
+    <string name="t_pointname">Название</string>
+    <string name="t_inputname">Введите название</string>
+    <string name="t_search_perameters">Параметры</string>
+    <string name="t_wait">Подождите...</string>
+    <string name="t_rating">Рейтинг-</string>
+    <string name="point_t_getfile">Выберите файл</string>
+    <string name="photo">Фото</string>
+    <string name="record_namefile">Имя файла</string>
+    <string name="search">Поиск...</string>
+    <string name="edit_point">Редактировать точку маршрута</string>
+    <!-- Text -->
+
+    <!-- Error -->
+    <string name="error_internet">Для поиска нужен интернет.</string>
+    <string name="error_name">Заполните название</string>
+    <string name="error_gps_net">Требуются разрешения ACCESS_COARSE_LOCATION</string>
+    <string name="error_gps_coordinats">Не удалось получить координаты. Попробуйте еще раз.</string>
+    <string name="error_gps_notenabled">Включите GPS.</string>
+    <string name="error_no_available_providers">Определение местоположения не возможно! Нет доступных GPS провайдеров!</string>
+    <string name="error_latlong">Широта и долгота должны быть заполнены!</string>
+    <string name="error_selectpoint">Выберите точку для контроля!</string>
+    <string name="error_notsearch">По вашему запросу ничего не найдено.</string>
+    <string name="error_nodate">Не удалось получить ответ, попробуйте немного позже.</string>
+    <string name="error_maxradius">Максимальный радиус для поиска -</string>
+    <string name="error_RECORD">Нужно разрешение на запись аудио и запись на SD-card.</string>
+    <string name="error_check">У точки не заданы широта или долгота.</string>
+    <string name="error_dictofon">Не удается запустить диктофон. Возможно он занят другой программой.</string>
+    <string name="error_radius">Задайте в настройках радиус для поиска.</string>
+    <string name="error_getlocatrion">Для поиска нужно определить ваши координаты. Нажмите кнопку определения локации.</string>
+    <string name="error_coordinats">Широта от -90 до 90, долгота от -180 до 180.</string>
+    <!-- Error -->
+
+
+    <!-- Message -->
+    <string name="start_service">Поехали!</string>
+    <string name="stop_service">Приехали!</string>
+    <string name="bind_service">Сервис Магеон подключен.</string>
+    <string name="destroy_service">Сервис Магеон отключен.</string>
+    <string name="point_getcoordinates">Получение координат...</string>
+    <string name="t_distamce">Дистанция:</string>
+    <string name="attention">Внимание!</string>
+    <!-- Message -->
+
+    <string name="b_start">Поехали</string>
+    <string name="seek_t_nextpoint">Следующая точка:</string>
+    <string name="seek_nextpoint">Ближайшая точка:</string>
+    <string name="seek_waiting">Поиск ближайшей точки...</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="toast_prefer">Установите координаты для открытия карты</string>
+    <string name="toast_prefer_done">Установка координат выполнена</string>
+    <string name="t_map_start">Старт</string>
+    <string name="t_nodata">Нет данных</string>
+    <string name="t_mappoint">Название</string>
+    <string name="google_webservice_key">AIzaSyBlhjc3VBtTBqEwSM0UDg9X0UKBxFiZbO4</string>
+
+</resources>

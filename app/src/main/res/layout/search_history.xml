@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_marginRight="10dp"
+              android:layout_marginTop="45dp"
+              android:layout_marginLeft="10dp"
+              android:id="@+id/cw_search"
+              android:visibility="gone"
+              android:background="@android:color/background_light"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+<android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_search_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"/>
+</android.support.v7.widget.CardView>
+

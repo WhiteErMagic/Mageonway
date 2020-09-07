@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/t_name_point"
+        android:text="@string/t_pointname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:hint="@string/t_inputname"
+        android:inputType="text"
+        android:nextFocusDown="@+id/edit_latitude"
+        android:imeOptions="actionNext"
+        android:cursorVisible="false"/>
+
+    <TableLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/t_latitude"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:id="@+id/text_latitude"/>
+
+            <EditText
+                android:id="@+id/edit_latitude"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:inputType="numberSigned|numberDecimal"
+                android:singleLine="false"
+                android:text="00.000000"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/t_longitude"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:id="@+id/text_longitude" />
+
+            <EditText
+                android:id="@+id/edit_longitude"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:inputType="numberSigned|numberDecimal"
+                android:text="00.000000"
+                android:textColor="#000000" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/selector_satellite"
+            android:id="@+id/btn_gps"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/map"
+            android:id="@+id/btn_map"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="@string/t_signalname"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:text=""
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/edit_distance"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:text="@string/t_signalfile"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/edit_file_signal"
+        android:hint="@string/t_signalfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:focusable="false"
+        android:enabled="false"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/open"
+            android:id="@+id/btn_file"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/bell"
+            android:id="@+id/btn_bell"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/microphone"
+            android:id="@+id/btn_microphone"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/play"
+            android:id="@+id/btn_play"/>
+    </LinearLayout>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/textView13" />
+</LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:text="@string/b_cancel"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:text="@string/b_save"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_save" />
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

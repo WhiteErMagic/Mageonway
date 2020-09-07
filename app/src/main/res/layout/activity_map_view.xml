@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mysoft.mageon.way.com.mageon_soft.mageon.mageonway.MapActivityView"/>
+<TableLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:id="@+id/tableLayout">
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_horizontal">
+    <Button
+        android:id="@+id/b_map_cansel"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/b_cancel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/b_map_ok"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/b_save"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+</TableRow>
+</TableLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="218dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/b_map_plus"
+        android:background="@drawable/plus"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/b_map_plus"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/b_map_minus"
+        android:background="@drawable/minus"/>
+</RelativeLayout>

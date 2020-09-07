@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mysoft.mageon.way">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_GPS"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION"/>
+
+    <application
+            android:name="AnalyticsApplication"
+            android:allowBackup="true"
+            android:icon="@drawable/app_mageon"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name="com.mysoft.mageon.way.MainActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.mysoft.mageon.way.DeleteActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.mysoft.mageon.way.EditPointActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.mysoft.mageon.way.BellActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.mysoft.mageon.way.DictofonActivity"
+                android:configChanges="keyboardHidden|orientation|screenSize"
+                android:screenOrientation="portrait"/>
+
+        <service
+                android:name="com.mysoft.mageon.way.MyServiceMAGEON"
+                android:enabled="true"/>
+
+        <activity android:name="com.mysoft.mageon.way.MapActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.mysoft.mageon.way.MapActivityView"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.mysoft.mageon.way.ShowDetailes"
+                  android:screenOrientation="portrait">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+    </application>
+
+</manifest>

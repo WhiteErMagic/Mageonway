@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bell"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mysoft.mageon.way.com.mageon_soft.mageon.mageonway.BellActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:text="@string/b_cancel"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:id="@+id/bell_cancel"/>
+
+            <Button
+                android:text="@string/b_OK"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:id="@+id/bell_ok"/>
+
+            <Button
+                android:text="@string/b_test"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:id="@+id/bell_test"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <ListView
+            android:id="@+id/list_bells"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+</LinearLayout>
